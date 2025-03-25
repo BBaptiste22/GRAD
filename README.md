@@ -2,6 +2,8 @@
 
 Bienvenue dans **GRAD**, un projet développé dans le cadre de ma formation en **BTS Services Informatiques aux Organisations (SIO)**. 🎉
 
+![Description of image](./image.png)
+
 ## Description du Projet 📝
 
 **GRAD** est une application de gestion pour une terrasse en bois, conçue avec les fonctionnalités suivantes :
