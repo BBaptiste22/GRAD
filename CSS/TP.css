@@ -1,0 +1,304 @@
+
+header{
+    height: 5%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+}
+
+.nav{
+    position: relative;
+    text-align: right;
+}
+
+#a:hover{
+    background-color: gray;
+}
+
+#b:hover{
+    background-color: gray;
+}
+
+#c:hover{
+    background-color: gray;
+}
+
+#d:hover{
+    background-color: gray;
+}
+
+#e:hover{
+    background-color: gray;
+}
+
+a#a{
+    margin-left:2.5%;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+a#b{
+    margin-left:2.5%;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+a#c{
+    margin-left:2.5%;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+a#d{
+    margin-left:2.5%;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+a#e{
+    margin-left:2.5%;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+
+section#fond {
+    background-size: 100%;
+    background-image:url(../Ressources/entete01.jpg);
+    height: 385px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 3.9%;
+    
+}
+section#image{
+    background-size: 100%;
+    background-image:url(../Ressources/prestations/Pergola.jpg);
+    height: 385px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 3.9%;
+}
+
+section#fondp{
+    background-size: 100%;
+    background-image:url(../Ressources/entete01.jpg);
+    height: 385px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 3.9%;
+}
+
+#titre{
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: start;
+  }
+
+#colonne2{
+    columns: 2;
+    text-align: right;
+}
+
+#colonne1{
+    columns: 1;
+    font-size: 95%;
+    text-align: left;
+    padding-right: 10%;
+    margin-top: 2%;
+}
+
+#actual1{
+    font-size: 90%;
+    margin-top: 2%;
+}
+
+footer{
+    background-color: #FEFFA5;
+    padding-bottom: 2.5%;
+}
+.vert{
+    background-color: #B4DC7F;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.vert{
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%  ;
+    align-items: center;
+
+}
+#bouton{
+    margin-top: 5%;
+    margin-left: 40%;
+    display: block;
+    background-color: #474747;
+    color: white;
+    text-align: center;
+    width: 10%;
+    cursor:pointer;
+}
+
+#info{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+#titrepresta{
+
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#colonne3{
+    columns: 2;
+    text-align: right;
+}
+
+#terrasse {
+    margin-left: 30%;
+    height: 70%;
+    width: 70%;
+    margin-top: 3%;
+}
+
+#escalier{
+    margin-left: 30%;
+    height: 70%;
+    width: 70%;
+    margin-top: 3%;
+}
+
+#imgbois{
+    margin-left: 30%;
+    height: 70%;
+    width: 60%;
+    margin-top: 3%;
+}
+
+#imgdouglas{
+    margin-left: 30%;
+    height: 70%;
+    width: 60%; 
+    margin-top: 3%;
+}
+
+#imgdouglas{
+    margin-left: 30%;
+    height: 70%;
+    width: 60%; 
+    margin-top: 3%;
+}
+#imgdouglas{
+    margin-left: 30%;
+    height: 70%;
+    width: 60%; 
+    margin-top: 3%;
+}
+
+#actual4{
+    padding: 3%;
+}
+
+#actual3{
+    padding: 8%;
+}
+
+#bois{
+    padding: 10%
+}
+
+#douglas{
+    padding: 2%;
+}
+
+#accoya{
+    padding: 2%;
+}
+
+#frene{
+    padding: 2%;
+}
+
+#titreproduits{
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#titrerealisations{
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.scroller {
+    width: auto;
+    height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: auto;
+    margin: auto;
+
+}
+
+.scroller > img {
+
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 40px;
+    height: 200px;
+    width: 400px;
+}
+
+.formulaire{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#titrec{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.buttoncontact{
+    padding-right: 5%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
