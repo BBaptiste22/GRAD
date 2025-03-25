@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Le workflow se déclenche sur un push vers la branche main
+      - main  # Déployer quand il y a un push sur la branche `main`
 
 jobs:
   deploy:
@@ -21,9 +21,10 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # Nom de la branche où tu veux déployer, ici `gh-pages`
-          folder: .  # Le dossier à déployer (ici la racine du projet)
-          
+          branch: gh-pages  # Déployer sur la branche `gh-pages`
+          folder: .  # Dossier à déployer (racine du projet ici)
+          clean: true  # Supprimer les fichiers obsolètes
+          token: ${{ secrets.GITHUB_TOKEN }}  # Utilisation du token d'accès généré automatiquement
 
       - name: Push changes
-        run: git push origin gh-pages  # Push les changements sur la branche gh-pages
+        run: git push origin gh-pages
